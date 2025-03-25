@@ -13,10 +13,10 @@ function App() {
     
     // return <h1>Hola Mundo</h1>;
 
-    let mensaje = "Hola";
+    let mensaje = "Hola Mundo";
     if (Math.random() < 0.5 )
         mensaje = "Hola Mundo" 
-    return <h1>{mensaje}</h1>
+    return <h2>{mensaje}</h2>
 }
 
 // 5) Mostrar el componente en la pantalla
